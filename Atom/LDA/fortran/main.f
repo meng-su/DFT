@@ -20,8 +20,8 @@ c the file atom.txt:
 c           s.    p.   d.   f 
 c n = 1.    2
 c n = 2.    2.    6
-c n = 3.    2.    6.   10
-c n = 4.    
+c n = 3.    2.    6.   6
+c n = 4.    2
 ccc
       open (1,file='atom.txt',action='read')
       read (1,*) A
