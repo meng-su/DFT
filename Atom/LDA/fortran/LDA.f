@@ -21,4 +21,4 @@
       epsc=-cp*dlog(1+rp/rs);
       Vxc=4.0d0/3.0d0*epsx + epsc; 
 
-      end 
+      end subroutine LDA
