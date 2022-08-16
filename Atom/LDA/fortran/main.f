@@ -13,7 +13,16 @@
       allocate(atom(4,4),A(4,4))
       z=26
 
-c read the configuration of atom     
+c read the configuration of atom, you can change the parameters of the configuration files -- atom.txt
+ccc
+c Z: Nuclear charge number
+c the file atom.txt:
+c           s.    p.   d.   f 
+c n = 1.    2
+c n = 2.    2.    6
+c n = 3.    2.    6.   10
+c n = 4.    
+ccc
       open (1,file='atom.txt',action='read')
       read (1,*) A
       close(1)
