@@ -18,10 +18,10 @@ ccc
 c Z: Nuclear charge number
 c the file atom.txt:
 c           s.    p.   d.   f 
-c n = 1.    2
-c n = 2.    2.    6
-c n = 3.    2.    6.   6
-c n = 4.    2
+c n = 1.    2.    0.   0.   0
+c n = 2.    2.    6.   0.   0
+c n = 3.    2.    6.   6.   0
+c n = 4.    2.    0.   0.   0
 ccc
       open (1,file='atom.txt',action='read')
       read (1,*) A
